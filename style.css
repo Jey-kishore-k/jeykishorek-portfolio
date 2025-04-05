@@ -1,0 +1,123 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f4f4f4;
+    color: #333;
+    transition: background 0.5s, color 0.5s;
+}
+
+/* Dark Mode */
+.dark-mode {
+    background: #121212;
+    color: #ffffff;
+}
+
+.dark-mode header {
+    background: #222;
+}
+
+/* Header */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background: #0078ff;
+    color: white;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: background 0.5s;
+}
+
+header h1 {
+    font-size: 24px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #ffcc00;
+}
+
+/* Sections */
+section {
+    padding: 50px 20px;
+    max-width: 900px;
+    margin: auto;
+}
+
+h2 {
+    text-align: center;
+    font-size: 28px;
+    position: relative;
+}
+
+h2::after {
+    content: '';
+    display: block;
+    width: 100px;
+    height: 3px;
+    background: #0078ff;
+    margin: 10px auto;
+}
+
+/* Profile Picture */
+.profile-pic {
+    display: block;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin: 20px auto;
+    transition: transform 0.3s;
+}
+
+.profile-pic:hover {
+    transform: scale(1.1);
+}
+
+/* Project Section */
+.project {
+    background: white;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+}
+
+.project:hover {
+    transform: translateY(-10px);
+}
+
+/* Contact Section */
+.social-icon {
+    width: 24px;
+    height: 24px;
+    margin-right: 10px;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #0078ff;
+    color: white;
+}

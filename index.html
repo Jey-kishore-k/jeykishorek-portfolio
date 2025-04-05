@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>About - Jey Kishore K</title>
+  <link rel="stylesheet" href="style.css"/>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      background: #f0faff;
+      text-align: center;
+    }
+    header, footer {
+      background-color: #007bff;
+      color: white;
+      padding: 20px;
+    }
+    nav ul {
+      list-style: none;
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      padding: 0;
+    }
+    nav a {
+      text-decoration: none;
+      color: white;
+      font-weight: bold;
+      padding: 5px 10px;
+      border-radius: 5px;
+    }
+    nav a.active, nav a:hover {
+      background-color: #0056b3;
+    }
+    main {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 40px 20px;
+    }
+    .profile-pic {
+      width: 200px;
+      height: 200px;
+      border-radius: 50%;
+      object-fit: cover;
+      margin-bottom: 30px;
+      transition: transform 0.4s ease, box-shadow 0.4s ease;
+    }
+    .profile-pic:hover {
+      transform: scale(1.05);
+      box-shadow: 0 0 25px rgba(0, 123, 255, 0.5);
+    }
+    .content {
+      max-width: 800px;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Jey Kishore K</h1>
+    <p>Co-founder & Developer of INENG GROUPS (Founded in 2025 by college students)</p>
+    <nav>
+      <ul>
+        <li><a href="welcome.html">Home</a></li>
+        <li><a href="index.html" class="active">About</a></li>
+        <li><a href="education.html">Education</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <img src="jey kishore 2.jpg" alt="Jey Kishore K" class="profile-pic"/>
+    <div class="content">
+      <h2>About Me</h2>
+      <p>I am a passionate Full Stack Developer, UI/UX Designer, PowerBI Developer, and AI enthusiast. I specialize in creating interactive websites, designing user-friendly interfaces, and working on data visualization.</p>
+      <p>I am currently working on innovative projects like:</p>
+      <ul style="text-align: left; display: inline-block;">
+        <li><strong>EcoVert</strong></li>
+        <li><strong>Gestro</strong></li>
+        <li><strong>Automart</strong></li>
+        <li><strong>Compfree</strong> </li>
+      </ul>
+      <p>I’m the Co-founder & Developer of <strong>INENG GROUPS</strong>, a startup founded in 2025 by college students.</p>
+    </div>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Jey Kishore K. All rights reserved.</p>
+  </footer>
+</body>
+</html>

@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Welcome - Jey Kishore K</title>
+  <link rel="stylesheet" href="style.css" />
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      background: linear-gradient(to bottom, #e0f7ff, #ffffff);
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+    }
+    header, footer {
+      background-color: #007bff;
+      color: white;
+      padding: 20px;
+    }
+    nav ul {
+      list-style: none;
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      padding: 0;
+    }
+    nav a {
+      text-decoration: none;
+      color: white;
+      font-weight: bold;
+      padding: 5px 10px;
+      border-radius: 5px;
+    }
+    nav a.active, nav a:hover {
+      background-color: #0056b3;
+    }
+    main {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 40px 20px;
+    }
+    .profile-pic {
+      width: 220px;
+      height: 220px;
+      border-radius: 50%;
+      object-fit: cover;
+      margin-bottom: 30px;
+      transition: transform 0.5s ease, box-shadow 0.5s ease;
+    }
+    .profile-pic:hover {
+      transform: scale(1.1);
+      box-shadow: 0 0 30px rgba(0, 123, 255, 0.5);
+    }
+    .explore-btn {
+      padding: 10px 20px;
+      font-size: 16px;
+      background-color: #007bff;
+      color: white;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: background 0.3s, transform 0.3s;
+    }
+    .explore-btn:hover {
+      background-color: #0056b3;
+      transform: scale(1.05);
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Jey Kishore K</h1>
+    <p>Co-founder & Developer of INENG GROUPS (Founded in 2025 by college students)</p>
+    <nav>
+      <ul>
+        <li><a href="welcome.html" class="active">Home</a></li>
+        <li><a href="index.html">About</a></li>
+        <li><a href="education.html">Education</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <img src="jey kishore pic.jpg" alt="Jey Kishore K" class="profile-pic" />
+    <h2>Welcome to Jey Kishore K's Portfolio</h2>
+    <p>Explore the pages to know more about me, my educational journey, innovative projects, and how to contact me.</p>
+    <a href="index.html"><button class="explore-btn">Go to About Page</button></a>
+  </main>
+  <footer>
+    <p>&copy; 2025 Jey Kishore K. All rights reserved.</p>
+  </footer>
+</body>
+</html>
